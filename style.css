@@ -12,3 +12,9 @@ h1.marcus{
   color:maroon;
   font-family:cursive;
 }
+.sborder{
+border: 2px solid blue;
+}
+.dborder{
+border: 1px dotted red;
+}
