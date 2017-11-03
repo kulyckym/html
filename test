@@ -14,11 +14,11 @@
         <p>Here is what the grading will look like</p>
 <table border="1">
   <tr>
-    <th scope="row">Criteria</th>
-    <th scope="row">Never</th>
-    <th scope="row">Sometimes</th>
-    <th scope="row">Mostly</th>
-    <th scope="row">Always</th>
+   <td>Criteria</td>
+   <td>Never</td>
+   <td>Sometimes</td>
+   <td>Mostly</td>
+   <td>Always</td>
   </tr>
   
   <tr>
