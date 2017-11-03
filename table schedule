@@ -1,1 +1,101 @@
 <!DOCTYPE html>
+    <table border="20">
+      <tr>
+       <th scope="row">Day 1</th>
+       <th scope="row">Day 2</th>
+       <th scope="row">Day 3</th>
+       <th scope="row">Day 4</th>
+       <th scope="row">Day 5</th>
+       <th scope="row">Day 6</th>
+       <th scope="row">Day 7</th>
+       <th scope="row">Day 8</th>
+	     <th scope="row">Day A1</th>
+	     <th scope="row">Day A3</th>
+	     <th scope="row">Day A6</th>
+      </tr>
+      
+      <tr>
+        <td>English L.A</td>
+        <td>Science</td>
+        <td>Religion</td>
+        <td>English L.A</td>
+        <td>Phys. Ed.</td>
+        <td>Programming</td>
+        <td>NS Math</td>
+        <td>Religion</td>
+        <td>Empty</td>
+        <td>English L.A</td>
+        <td>French</td>
+      </tr>
+      
+      <tr>
+        <td>Science</td>
+        <td>Music</td>
+        <td>French</td>
+        <td>Programming</td>
+        <td>Music</td>
+        <td>French</td>
+        <td>History</td>
+        <td>Phys. Ed.</td>
+        <td>Programming</td>
+        <td>Programming</td>
+        <td>Programming</td>
+      </tr>
+      
+      <tr>
+        <td>History</td>
+        <td>NS Math</td>
+        <td>English L.A</td>
+        <td>Science</td>
+        <td>History</td>
+        <td>NS Math</td>
+        <td>French</td>
+        <td>Science</td>
+        <td>English L.A</td>
+        <td>Empty</td>
+        <td>English L.A</td>
+      </tr>
+     
+      <tr>
+        <td>Programming</td>
+        <td>Speech</td>
+        <td>Homeroom</td>
+        <td>History</td>
+        <td>Speech</td>
+        <td>Music</td>
+        <td>Level Assembly</td>
+        <td>History</td>
+        <td>Empty</td>
+        <td>Empty</td>
+        <td>Empty</td>
+      </tr>
+      
+      <tr>
+        <td>Programming</td>
+        <td>French</td>
+        <td>Science</td>
+        <td>French</td>
+        <td>Religion</td>
+        <td>Music</td>
+        <td>English L.A</td>
+        <td>NS Math</td>
+        <td>Science</td>
+        <td>Science</td>
+        <td>Science</td>
+      </tr>
+      
+      <tr>
+        <td>NS Math</td>
+        <td>English L.A</td>
+        <td>NS Math</td>
+        <td>NS Math</td>
+        <td>Science</td>
+        <td>History</td>
+        <td>Religion</td>
+        <td>Music</td>
+        <td>French</td>
+        <td>French</td>
+        <td>Empty</td>
+      </tr>
+    </table>  
+        
