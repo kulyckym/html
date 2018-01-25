@@ -107,11 +107,15 @@
         <td>Empty</td>
       </tr>
     </table>  
-		<form>
-			<input placeholder= "search..."id="demo" onclick="myfunction()">>
-			<input type="submit" value="Go">
-		</form>
+		<!-- <form> -->
+			<input placeholder= "search..."  >
+			<input type="submit" value="Go" onclick="comeOn()">
+		<!--form>-->
+		<p id="demo"></p>
 	<script>
-	function searchBar() {
-	document.getElementById("demo").innerHTML ="Searching";}
-	</script>	
+		function comeOn()
+		{
+			document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+		}
+	</script>
+        
