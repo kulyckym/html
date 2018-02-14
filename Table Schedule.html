@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+<html>
+
     <head>
          <link href="TableSchedule.css" type="text/css" rel="stylesheet">
 		  
 		<script src="TableSchedule.js"> </script>
     </head>
+	<body>
 		<style>
 		body{
 		  background-color: lightblue;
@@ -110,7 +113,7 @@
     </table>  
 		<!-- <form> -->
 			<input placeholder= "search..." id="classStuff">
-			<input type="submit" value="Go" onclick="comeOn()"> ;
+			<input type="submit" onclick="highlighter()"> ;
 		<!--form>-->
 		<p id="whatever"> </p>
 	<script>
@@ -152,7 +155,7 @@
 					classStuff = 'phys' ;
 					break;
 				default:
-					console.log();
+					console.log("hello");
 			}
 			var saveVariables = document.getElementsByClassName(classStuff);
 			for (i=0 ; i<saveVariables.length ; i++) {
@@ -162,5 +165,3 @@
 	</script>
 </body>
 </html>
-
-
