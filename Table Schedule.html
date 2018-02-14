@@ -42,7 +42,7 @@
         <td class="sci">Science</td>
         <td class="mus">Music</td>
         <td class="fr">French</td>
-        <td>Programming</td>
+        <td class="prog">Programming</td>
         <td class="mus">Music</td>
         <td class="fr">French</td>
         <td class="his">History</td>
@@ -69,11 +69,11 @@
       <tr>
         <td class="prog">Programming</td>
         <td class="spch">Speech</td>
-        <td>Homeroom</td>
+        <td class="hr">Homeroom</td>
         <td class="his">History</td>
         <td class="spch">Speech</td>
         <td class="mus">Music</td>
-        <td>Level Assembly</td>
+        <td class="LA">Level Assembly</td>
         <td class="his">History</td>
         <td>Empty</td>
         <td>Empty</td>
@@ -109,14 +109,58 @@
       </tr>
     </table>  
 		<!-- <form> -->
-			<input placeholder= "search..." id="abcd">
-			<input type="submit" value="Go" onclick="comeOn()">
-			
+			<input placeholder= "search..." id="classStuff">
+			<input type="submit" value="Go" onclick="comeOn()"> ;
 		<!--form>-->
 		<p id="whatever"> </p>
 	<script>
-		function comeOn()
-		{
-			document.getElementById("whatever").innerHTML = "you clicked sumn";
+		var classStuff;
+		function highlighter() {
+			var classNames = document.getElementById("classStuff").value ;
+			switch(classNames){
+				case 'Math' :
+					classStuff = 'NS' ;
+					break;
+				case 'Science' :
+					classStuff = 'sci' ;
+					break;
+				case 'English' :
+					classStuff = 'eng' ;
+					break;
+				case 'French' :
+					classStuff = 'fr' ;
+					break;
+				case 'Computer Programming' :
+					classStuff = 'prog' ;
+					break;
+				case 'History' :
+					classStuff = 'his' ;
+					break;
+				case 'Religion' :
+					classStuff = 'rel' ;
+					break;
+				case 'Music' :
+					classStuff = 'mus' ;
+					break;
+				case 'Level Assembly' :
+					classStuff = 'LA' ;
+					break;
+				case 'Homeroom' :
+					classStuff = 'hr' ;
+					break;
+				case 'Physical Education' :
+					classStuff = 'phys' ;
+					break;
+				default:
+					console.log();
+			}
+			var saveVariables = document.getElementsByClassName(classStuff);
+			for (i=0 ; i<saveVariables.length ; i++) {
+				saveVariables[i].style.backgroundColor = "blue" ;
+			}
 		}
 	</script>
+</body>
+</html>
+
+
